@@ -4,7 +4,7 @@ import time
 def f_1 (start, end):
     total_1 = 0
     for x in range (start, end):
-        total_1 += x**2 - x**2 + x**4 - x**5 + x + x
+        total_1 += x**2 - x**2 + x*4 - x*5 + x + x
     return total_1
 
 def f_2 (start, end):
